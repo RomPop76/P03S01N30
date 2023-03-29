@@ -3,7 +3,7 @@
 // jeśli nie podamy argumentu na etapie wywołania to funckja weźmie argumenty domyślne
 
 // Tworzenie funkcji z pomocą fat arrow
-const addTwoNumbers = (x = 0, y = 0) => {
+const addTwoNumbers = (x = 2, y = 4) => {
  const result = x + y;
  console.log(result);
  return result;
