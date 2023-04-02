@@ -29,21 +29,21 @@ const addTwoNumbers = (x = 2, y = 4) => {
 
 //1. Przykład callback
 
-function count(x, callback) {
- return callback(x)
-}
+// function count(x, callback) {
+//  return callback(x)
+// }
 
-function addOne(item) {
- item++
- console.log(item);
- return item;
-}
+// function addOne(item) {
+//  item++
+//  console.log(item);
+//  return item;
+// }
 
-function subtractOne(number) {
- number--
- console.log(number);
- return number;
-}
+// function subtractOne(number) {
+//  number--
+//  console.log(number);
+//  return number;
+// }
 
 // const result = count(5, addOne)
 // count(5, addOne)
@@ -63,7 +63,7 @@ document.body.addEventListener("click", showClick)
 const showTime = () => {
  console.log("minęły 2 sekundy")
 }
-// setInterval(showTime, 2000)
+// setInterval(showTime, 50)
 
 
 //4. Przykład callback
